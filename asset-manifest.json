@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe09d88f.css",
+    "main.css": "/static/css/main.ae50f9f0.css",
     "main.js": "/static/js/main.4ae8c075.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
@@ -68,12 +68,12 @@
     "static/media/spotify.svg": "/static/media/spotify.265e7da9e8f0a4b85c34e8c43572db82.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.f7e10e34b2209e3f91821d6e15c1407f.svg",
     "static/media/email.svg": "/static/media/email.626bff90b9d18934660ec94b5485dee9.svg",
-    "main.fe09d88f.css.map": "/static/css/main.fe09d88f.css.map",
+    "main.ae50f9f0.css.map": "/static/css/main.ae50f9f0.css.map",
     "main.4ae8c075.js.map": "/static/js/main.4ae8c075.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe09d88f.css",
+    "static/css/main.ae50f9f0.css",
     "static/js/main.4ae8c075.js"
   ]
 }
