@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.674d3711.css",
-    "main.js": "/static/js/main.5b35392a.js",
+    "main.js": "/static/js/main.643a13b5.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/interlude_cover.png": "/static/media/interlude_cover.41f69d568ae32a700d57.png",
@@ -33,7 +33,8 @@
     "static/media/Cover.png": "/static/media/Cover.cdf479a9b5e2052e9d45.png",
     "static/media/ProfileChanges.png": "/static/media/ProfileChanges.35181802e3ec8c6b51e9.png",
     "static/media/FlowBefore.png": "/static/media/FlowBefore.a29eff5f738cd44c4de9.png",
-    "static/media/Stimuli.png": "/static/media/Stimuli.b159540fe0b8e22f4d86.png",
+    "static/media/Stimuli.png": "/static/media/Stimuli.23a1571897d2a0391edb.png",
+    "static/media/MVP.png": "/static/media/MVP.83462afa98af1305c931.png",
     "static/media/SimManager.png": "/static/media/SimManager.6026a0b93b9fdd4805aa.png",
     "static/media/EnlargingNearby.png": "/static/media/EnlargingNearby.ea90a5b4f6041c966e95.png",
     "static/media/me.jpg": "/static/media/me.79a8ea5be7a53f9554fe.jpg",
@@ -46,8 +47,8 @@
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
     "static/media/rec_engineering.png": "/static/media/rec_engineering.84038b62ec0ad15ca6e6.png",
     "static/media/Active_NavBar.png": "/static/media/Active_NavBar.43b33eb3982d1dd58687.png",
-    "static/media/Tasks.png": "/static/media/Tasks.9d73142bfa500594336c.png",
     "static/media/MultiSim.png": "/static/media/MultiSim.633b51fedde6da01b253.png",
+    "static/media/Tasks.png": "/static/media/Tasks.7841cebf052b5aec7973.png",
     "static/media/database.png": "/static/media/database.8852038ced190914e8ca.png",
     "static/media/home_page.png": "/static/media/home_page.47eee3cee548f3ad3552.png",
     "static/media/full_stack.png": "/static/media/full_stack.37084e8923f92f55a1db.png",
@@ -69,11 +70,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.f7e10e34b2209e3f91821d6e15c1407f.svg",
     "static/media/email.svg": "/static/media/email.626bff90b9d18934660ec94b5485dee9.svg",
     "main.674d3711.css.map": "/static/css/main.674d3711.css.map",
-    "main.5b35392a.js.map": "/static/js/main.5b35392a.js.map",
+    "main.643a13b5.js.map": "/static/js/main.643a13b5.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.674d3711.css",
-    "static/js/main.5b35392a.js"
+    "static/js/main.643a13b5.js"
   ]
 }
