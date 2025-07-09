@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae50f9f0.css",
-    "main.js": "/static/js/main.dbadc0b5.js",
+    "main.css": "/static/css/main.5d6df627.css",
+    "main.js": "/static/js/main.f4f06597.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/interlude_cover.png": "/static/media/interlude_cover.41f69d568ae32a700d57.png",
@@ -41,7 +41,6 @@
     "static/media/VVSS.jpg": "/static/media/VVSS.d881fce0f298c5257b7b.jpg",
     "static/media/DLPoster.png": "/static/media/DLPoster.83d98ec5ce8602d27446.png",
     "static/media/artist_profiles.png": "/static/media/artist_profiles.bc505b4654767cda0bd3.png",
-    "static/media/full_stack.png": "/static/media/full_stack.e6c732dd7f3914a2f6a7.png",
     "static/media/music_page.png": "/static/media/music_page.3a0603f7fea302ae7d28.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
@@ -51,9 +50,10 @@
     "static/media/MultiSim.png": "/static/media/MultiSim.633b51fedde6da01b253.png",
     "static/media/database.png": "/static/media/database.8852038ced190914e8ca.png",
     "static/media/home_page.png": "/static/media/home_page.47eee3cee548f3ad3552.png",
+    "static/media/full_stack.png": "/static/media/full_stack.37084e8923f92f55a1db.png",
     "static/media/rec_system.png": "/static/media/rec_system.126f3a4c7310ecd5fe0b.png",
+    "static/media/research.png": "/static/media/research.5be33c808fa1eb1e8250.png",
     "static/media/remembered.jpg": "/static/media/remembered.497f5b7ae289caff9aa3.jpg",
-    "static/media/research.png": "/static/media/research.94ea8cac7bc8f68ee118.png",
     "static/media/testimonials.png": "/static/media/testimonials.7245cd9fc672bd26908b.png",
     "static/media/UXCollab.png": "/static/media/UXCollab.c7d934f17e4b79653f41.png",
     "static/media/TeamCollab.png": "/static/media/TeamCollab.a52e9dd67173208110be.png",
@@ -68,12 +68,12 @@
     "static/media/spotify.svg": "/static/media/spotify.265e7da9e8f0a4b85c34e8c43572db82.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.f7e10e34b2209e3f91821d6e15c1407f.svg",
     "static/media/email.svg": "/static/media/email.626bff90b9d18934660ec94b5485dee9.svg",
-    "main.ae50f9f0.css.map": "/static/css/main.ae50f9f0.css.map",
-    "main.dbadc0b5.js.map": "/static/js/main.dbadc0b5.js.map",
+    "main.5d6df627.css.map": "/static/css/main.5d6df627.css.map",
+    "main.f4f06597.js.map": "/static/js/main.f4f06597.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae50f9f0.css",
-    "static/js/main.dbadc0b5.js"
+    "static/css/main.5d6df627.css",
+    "static/js/main.f4f06597.js"
   ]
 }
