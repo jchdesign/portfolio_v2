@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d6df627.css",
-    "main.js": "/static/js/main.f4f06597.js",
+    "main.css": "/static/css/main.689bb26d.css",
+    "main.js": "/static/js/main.d64aa1d6.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/interlude_cover.png": "/static/media/interlude_cover.41f69d568ae32a700d57.png",
@@ -16,7 +16,7 @@
     "static/media/reflection.png": "/static/media/reflection.1bb5653d20152817f8b3.png",
     "static/media/acedia.jpg": "/static/media/acedia.b5c3960b7bf9c6ba2334.jpg",
     "static/media/app_flow.png": "/static/media/app_flow.54abf7ba2a4f6059dd00.png",
-    "static/media/Combined.png": "/static/media/Combined.fdbb547b6159946edd9a.png",
+    "static/media/Combined.png": "/static/media/Combined.21216e4bff83ed3ea970.png",
     "static/media/rcltns.png": "/static/media/rcltns.63d135d353ec2e1f42c8.png",
     "static/media/NearbyBrowse.png": "/static/media/NearbyBrowse.02bdccce6c7bd6acb08b.png",
     "static/media/june.jpg": "/static/media/june.e4c77e7bab0750f5211d.jpg",
@@ -29,7 +29,6 @@
     "static/media/nemawashi.png": "/static/media/nemawashi.3f392a59ae1d9cc89f1d.png",
     "static/media/FlowFinal.png": "/static/media/FlowFinal.8e020fcb356cd84c3784.png",
     "static/media/sanctuaries.jpg": "/static/media/sanctuaries.2d0aa2bea331a43825ee.jpg",
-    "static/media/Nearby_3_4.png": "/static/media/Nearby_3_4.a4f2945bc562ce169b75.png",
     "static/media/ActiveStatus.png": "/static/media/ActiveStatus.42bfee46163853e79e3d.png",
     "static/media/Cover.png": "/static/media/Cover.cdf479a9b5e2052e9d45.png",
     "static/media/ProfileChanges.png": "/static/media/ProfileChanges.35181802e3ec8c6b51e9.png",
@@ -41,6 +40,7 @@
     "static/media/VVSS.jpg": "/static/media/VVSS.d881fce0f298c5257b7b.jpg",
     "static/media/DLPoster.png": "/static/media/DLPoster.83d98ec5ce8602d27446.png",
     "static/media/artist_profiles.png": "/static/media/artist_profiles.bc505b4654767cda0bd3.png",
+    "static/media/Nearby_3_4.png": "/static/media/Nearby_3_4.241f3a6ce5cb64965614.png",
     "static/media/music_page.png": "/static/media/music_page.3a0603f7fea302ae7d28.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
@@ -52,7 +52,7 @@
     "static/media/home_page.png": "/static/media/home_page.47eee3cee548f3ad3552.png",
     "static/media/full_stack.png": "/static/media/full_stack.37084e8923f92f55a1db.png",
     "static/media/rec_system.png": "/static/media/rec_system.126f3a4c7310ecd5fe0b.png",
-    "static/media/research.png": "/static/media/research.5be33c808fa1eb1e8250.png",
+    "static/media/research.png": "/static/media/research.2c511bb609b3034e64ec.png",
     "static/media/remembered.jpg": "/static/media/remembered.497f5b7ae289caff9aa3.jpg",
     "static/media/testimonials.png": "/static/media/testimonials.7245cd9fc672bd26908b.png",
     "static/media/UXCollab.png": "/static/media/UXCollab.c7d934f17e4b79653f41.png",
@@ -68,12 +68,12 @@
     "static/media/spotify.svg": "/static/media/spotify.265e7da9e8f0a4b85c34e8c43572db82.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.f7e10e34b2209e3f91821d6e15c1407f.svg",
     "static/media/email.svg": "/static/media/email.626bff90b9d18934660ec94b5485dee9.svg",
-    "main.5d6df627.css.map": "/static/css/main.5d6df627.css.map",
-    "main.f4f06597.js.map": "/static/js/main.f4f06597.js.map",
+    "main.689bb26d.css.map": "/static/css/main.689bb26d.css.map",
+    "main.d64aa1d6.js.map": "/static/js/main.d64aa1d6.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d6df627.css",
-    "static/js/main.f4f06597.js"
+    "static/css/main.689bb26d.css",
+    "static/js/main.d64aa1d6.js"
   ]
 }
