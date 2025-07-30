@@ -41,7 +41,7 @@ const work_data = [
     {
         key: 2,
         title: 'MULTIPLE SIMULATIONS AND SIMULATION MANAGER WORKFLOW REDESIGN',
-        listing: 'MULTISIM + SIM MANAGER REDESIGN',
+        listing: 'MATHWORKS: MULTISIM + SIM MANAGER REDESIGN',
         role: ['JEFF CHANG', 'UX DESIGN INTERN'],
         credit: 'MATHWORKS', // For the program listing
         arranged: true,
@@ -82,8 +82,8 @@ const work_data = [
     },
     {
         key: 3,
-        title: 'NEARBY: REDESIGNED',
-        listing: 'NEARBY: REDESIGNED',
+        title: 'NEARBY, REDESIGNED',
+        listing: 'NEARBY, REDESIGNED',
         role: ['JEFF CHANG', 'PRODUCT DESIGN INTERN'],
         credit: 'KARDDER',
         arranged: true,

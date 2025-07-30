@@ -25,6 +25,7 @@ function About({data}) {
               <h2>ENGINEER, ALSO OF MANY DISCIPLINES.</h2>
               <h2>AVID METALHEAD.</h2>
               <h2>CHEF.</h2>
+              <h2>SPORADICALLY ADDICTED GAMER</h2>
               <h2>(RETIRED) SAXOPHONIST.</h2>
               <h2>PRODUCT MANAGER.</h2>
               <h2>CLASSICAL TO CONTEMPORARY PIANIST.</h2>

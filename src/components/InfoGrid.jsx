@@ -5,10 +5,9 @@ function InfoGrid({list}) {
             list.map((item) => (
               <div className='grid-item'>
                 <>
-                <p className='h3 font-600'>{item.title}</p>
-                <br></br>
-                <p className='text'>{item.text}</p>
                 <img>{item.img}</img>
+                <h3><strong>{item.title}</strong></h3>
+                <p className='text'>{item.text}</p>
                 </>
               </div>
             ))

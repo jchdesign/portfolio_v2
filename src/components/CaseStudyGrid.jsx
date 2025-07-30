@@ -22,7 +22,7 @@ function CaseStudyGrid({data}) {
                 }}>
                     <p className='body' style={{paddingBottom:'2rem'}}><strong>OVERVIEW</strong> // {data.overview}</p>
                     <p className='body'><strong>ROLE</strong> // {data.role[1]}</p>
-                    {data.collab_credits != '' ? <p className='body'><strong>PRODUCER</strong> // {data.collab_credits}</p> : null}
+                    {data.collab_credits != '' ? <p className='body'><strong>IN COLLABORATION WITH</strong> // {data.collab_credits}</p> : null}
                     {data.collab ?
                         <div>
                             <p><strong className='body'>FEATURING</strong> //</p>
@@ -33,7 +33,7 @@ function CaseStudyGrid({data}) {
                             ))}
                         </div> : null
                     }
-                    <p className='body'><strong>RECORDED</strong> // {data.duration}</p>
+                    <p className='body'><strong>FROM</strong> // {data.duration}</p>
                 </div>
             </div>
         </div>

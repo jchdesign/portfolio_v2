@@ -34,20 +34,41 @@ function MultiSim_SimManager() {
     <main className='design'>
       <div className='container'>
         <CaseStudyGrid data={work_data[1]}/>
-        <section className='grey'>
+        <section className='inverse-black'>
           <TextSection
             title={"UNITING A TEAM THROUGH DESIGN"}
-            text={<p>Leading a product team through sketching workshops, design reviews, and empathetic collaboration, <strong>achieving crossfunctional alignment on the workflow redesign of Multiple Simulations and Simulation Manager applications.</strong></p>}
+            text={<h3>Leading a product team through sketching workshops, design reviews, and empathetic collaboration, <strong>achieving crossfunctional alignment on the workflow redesign of Multiple Simulations and Simulation Manager applications.</strong></h3>}
           />
         </section>
         <section>
           <TextSection
-            title={"DIRECTOR'S NOTE"}
+            title={"MY ROLE"}
+            text={
+            <>
+              <p>As the sole designer supporting the product team, I centered my design process around intentional collaborations with engineering and design.</p>
+              <br></br>
+              <h3><strong>PROJECT LEADERSHIP</strong></h3>
+              <p>Defining project scope and requirements, design timeline and strategy, and presenting works to my cross-functional product team to gain buy-in and feedback.</p>
+              <br></br>
+              <h3><strong>ENGINEERING PARTNERSHIPS</strong></h3>
+              <p>Heading design sketching and design review workshops to involve our product manager, developer, and two customer-facing engineers at crucial points of the design process.</p>
+              <br></br>
+              <h3><strong>DESIGN SUBJECT-MATTER EXPERT</strong></h3>
+              <p>Maintaining close connection with the internal design community of UX managers and UX experts to understand and apply MathWorks design standards into my work and design rationale.</p>
+              <br></br>
+              <h3><strong>DESIGN EXECUTION</strong></h3>
+              <p>Utilizing sketching, workflow diagramming, wireframing, and interaction design to convert design vision to interactive prototypes.</p>
+            </>}
+          />
+        </section>
+        <section className='grey'>
+          <TextSection
+            title={"A WORD:"}
             text={"This project is under an NDA, and while I can't share the details of my work, I hope this case study can give you an understanding of the design process I employ to bring my team together through design."}
           />
         </section>
         <section className='inverse-black'>
-          <TextSection title='THE STORY OF A 10-WEEK DESIGN CHALLENGE'/>
+          <TextSection title='THE STORY OF A 12-WEEK DESIGN CHALLENGE'/>
         </section>
         <section>
           <TextSection
@@ -73,7 +94,7 @@ function MultiSim_SimManager() {
             title={"THE CHALLENGE: A FRAGMENTED WORKFLOW"}
             text={<>
               <h3>This disconnected workflow that jumps between two application windows has led to a <span style={{fontStyle:'italic', color:'lightSalmon'}}>history of customer help tickets and user reports of pain points, taxing the product team and customer-facing engineers.</span></h3>
-              <h3>As the sole designer supporting the Multiple Simulations and Simulation Manager team on this project, I was tasked to redesign the workflow to <strong>create a unified workflow between the two applications.</strong></h3>
+              <h3>I was tasked to redesign the workflow to <strong>create a unified workflow between the two applications.</strong></h3>
             </>}
           />
         </section>
@@ -107,7 +128,7 @@ function MultiSim_SimManager() {
           <ImageTextSection
             orientation='text-img'
             img={Team}
-            title='Meet the Orchestra'
+            title='Meet My Circle'
             text='The cross-functional team I had the pleasure of working with. Spanning across UX, management, and engineering, I sought out and incorporated perspectives from these groups to build my designs.'
           />
         </section>
@@ -210,7 +231,7 @@ function MultiSim_SimManager() {
             title={"FINAL OUTCOMES"}
             text={
               <>
-                <h3>Taking in suggestions from the team, I delivered a high-fidelity final version of the revamped workflow, ready for handoff.</h3>
+                <h3>Incorporating feedback from the team, I polished my prototypes to deliver a high-fidelity final version of a unified workflow between Multiple Simulations and Simulation Manager, ready for handoff.</h3>
                 <h3><strong>The solution was well-received by all members of the team and staged for development in the next MATLAB release.</strong></h3>
               </>
             }

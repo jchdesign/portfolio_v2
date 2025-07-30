@@ -83,6 +83,14 @@ function Home() {
         const container = containerRef.current;
         if (!container) return;
 
+        // Check if container has dimensions
+        const containerWidth = container.offsetWidth;
+        if (containerWidth === 0) {
+            // Container doesn't have dimensions yet, try again later
+            setTimeout(renderWaveform, 50);
+            return;
+        }
+
         container.innerHTML = '';
 
         const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
@@ -91,8 +99,14 @@ function Home() {
         const barGap = barGapRem * remInPx;
         const barWidth = barWidthRem * remInPx;
 
-        const containerWidth = container.offsetWidth;
         const maxBars = Math.floor(containerWidth / (barWidth + barGap));
+        
+        // Ensure we have at least some bars
+        if (maxBars <= 0) {
+            setTimeout(renderWaveform, 50);
+            return;
+        }
+
         const sampled = resampleArray(waveform, maxBars);
 
         sampled.forEach(value => {
@@ -109,12 +123,48 @@ function Home() {
     };
 
     useEffect(() => {
-        renderWaveform();
+        // Initial render with a small delay to ensure DOM is ready
+        const initialRender = () => {
+            renderWaveform();
+            updateBackgroundPosition();
+        };
+
+        // Wait for DOM to be fully loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initialRender);
+        } else {
+            // DOM is already loaded, try immediate render
+            initialRender();
+        }
+
+        // If immediate render doesn't work, try again after a short delay
+        const timeoutId = setTimeout(initialRender, 100);
+
+        // Also try after a longer delay to catch any remaining layout issues
+        const longerTimeoutId = setTimeout(initialRender, 500);
+
+        // Use ResizeObserver to detect when container dimensions change
+        const resizeObserver = new ResizeObserver(() => {
+            renderWaveform();
+            updateBackgroundPosition();
+        });
+
+        if (containerRef.current) {
+            resizeObserver.observe(containerRef.current);
+        }
+
         window.addEventListener('resize', () => {
             renderWaveform();
             updateBackgroundPosition();
         });
-        return () => window.removeEventListener('resize', renderWaveform);
+
+        return () => {
+            document.removeEventListener('DOMContentLoaded', initialRender);
+            clearTimeout(timeoutId);
+            clearTimeout(longerTimeoutId);
+            resizeObserver.disconnect();
+            window.removeEventListener('resize', renderWaveform);
+        };
     }, []);
 
   return (

@@ -17,7 +17,7 @@ const music_data = [
         credit: 'Chang',
         arranged: false,
         collab: false,
-        collab_credits: 'JEFF CHANG',
+        collab_credits: '',
         duration: 'MAY 2020 - PRESENT',
         img: rcltns,
         imgCard: rcltns,

@@ -48,7 +48,7 @@ function Nearby() {
             text={"Nearby, a page showing active users within a user's quarter mile radius, is Kardder's holy grail feature.\n\nHow can we better present Nearby as Kardder's most important, stand-out feature?"}
           />
           <ListSection
-            title="What's the deal with Nearby?"
+            title="Where is Nearby Falling Short?"
             subtitle="Conducting a product teardown of Nearby, we uncovered several problems with Nearby that hinders its presentation as Kardder's centerpiece:"
             list={[
               {
@@ -68,7 +68,7 @@ function Nearby() {
         </section>
         <section className='inverse-black'>
           <TextSection
-            title='The Problem I Wrapped Head Around:' 
+            title='The Problem I Wrapped My Head Around:' 
             text={<h3>Due to issues in prominence, showcasing functionality, and redundancy, Nearby does not present itself as the selling point and the unique centerpiece of Kardder.</h3>}
           />
         </section>
@@ -179,9 +179,29 @@ function Nearby() {
             title='The Final Product'
             text='The version that remained in the app for the rest of my tenure, one that served as the core feature, most prominent page, and visibly and functionally the selling point of Kardder.'
           />
-        </section>
         <ImageSection
-          img={Nearby_3_4}/>
+          img={Nearby_3_4}
+        />
+        </section>
+        <section className='inverse-black'>
+          <ListSection
+            title="Reflections and Learnings"
+            list={[
+              {
+                title: 'Understand Constraints Early',
+                text: 'This project taught me to position my design process for future projects to be rooted in early understanding of product constraints and requirements, viewing them as doors to new design opportunities rather than roadblocks.'
+              },
+              {
+                title: 'Embracing Project Nonlinearity',
+                text: 'Throughout this project, I pivoted in our design solutions, worked on other features in parallel, and hopped around different feature teams on a weekly basis. I found that welcoming this winding, nonlinear design path helped open me up to design inspirations from the people, conversations, and new ideas that I encountered, reminding me that design - as much as it is a strategic force - is also a deeply creative act.'
+              },
+              {
+                title: 'Future Directions: Research Validation',
+                text: "If given more time during our design process, I would have liked to lead a usability testing phase to understand how users interact with both Nearby and Browse as well as what they understand about each of their functionalities."
+              }
+            ]}
+          />
+        </section>
       </div>
     </main>
   )

@@ -49,18 +49,24 @@ function Reflection() {
           />
         </section>
         <section>
-          <SectionDivider text={'Movement II: Experiment Design'}/>
-          <ImageTextSection 
-            img={Stimuli}
+          <TextSection
             title='Stimuli'
             text={<p>In an online experiment setting, an image set consisting of 78 <strong>social</strong> images of people and 78 <strong>inanimate</strong> images of inanimate scenes was presented. The theme of each image was matched across the social and inanimate categories.</p>}
           />
-          <ImageTextSection 
+          <ImageSection 
+            img={Stimuli}
+          />
+          <TextSection
+            title="Tasks"
+            text={
+              <>
+                <p>Our experiment involved two tasks, the first being a <strong>chiral discrimination task</strong>. Participants were shown an image and its mirrored orientation and were asked to select what they believed was the original orientation.
+                <br></br><br></br>
+                The second task, which immediately followed the first task, was an <strong>aesthetic rating task</strong>. Participants viewed the same images one-by-one and rated the aesthetic appeal of each image on a scale of 1 to 6.</p>
+              </>}
+            />  
+          <ImageSection 
             img={Tasks}
-            title='Tasks'
-            text={<p>Our experiment involved two tasks, the first being a <strong>chiral discrimination task</strong>. Participants were shown an image and its mirrored orientation and were asked to select what they believed was the original orientation.
-            <br></br><br></br>
-            The second task, which immediately followed the first task, was an <strong>aesthetic rating task</strong>. Participants viewed the same images one-by-one and rated the aesthetic appeal of each image on a scale of 1 to 6.</p>}
           />
         </section>
         <section className='inverse-black'>

@@ -22,7 +22,9 @@ import full_stack from '../assets/Interlude/full_stack.png';
 import database from '../assets/Interlude/database.png';
 import rec_engineering from '../assets/Interlude/rec_engineering.png';
 import rec_system from '../assets/Interlude/rec_system.png';
-import testimonials from '../assets/Interlude/testimonials.png'
+import testimonials from '../assets/Interlude/testimonials.png';
+import MVP from '../assets/Interlude/MVP.png';
+import HyperLink from '../components/HyperLink';
 
 
 function Interlude() {
@@ -34,13 +36,43 @@ function Interlude() {
     <main className='design'>
       <div className='container'>
         <CaseStudyGrid data={work_data[0]}/>
-        <section className='grey'>
+        <section className='inverse-black'>
           <TextSection
             title='CREATING A COMMUNITY FOR EMERGING ARTISTS'
+            text={<h3>Inspired by the journeys and passion of early-stage independent artists, <strong>I led end-to-end UX design, UX research, and full-stack engineering to build an application supporting the growth of emerging artists.</strong></h3>}
+          />
+        </section>
+        <section>
+          <TextSection
+            title={"MY ROLE"}
+            text={
+            <>
+              <h3><strong>PRODUCT MANAGEMENT AND LEADERSHIP</strong></h3>
+              <p>Leading a team of designers and data scientists, defining project timelines and strategy for each step of the product design process.</p>
+              <br></br>
+              <h3><strong>INDUSTRY RESEARCH</strong></h3>
+              <p>Understanding the stakeholder system and music industry trends through qualitative research methods, always bringing our vision back to the people we're building for.</p>
+              <br></br>
+              <h3><strong>DESIGN EXECUTION</strong></h3>
+              <p>Executing information architecture design, collaborative sketching, wireframing, mid to high-fidelity prototyping, and usability testing of our application.</p>
+              <br></br>
+              <h3><strong>RECOMMENDATION SYSTEM ENGINEERING</strong></h3>
+              <p>Leading model construction, feature engineering, user testing, and iterative design of a machine learning-enabled recommendation system.</p>
+              <br></br>
+              <h3><strong>FULL-STACK ENGINEERING</strong></h3>
+              <p>Building our design prototypes into a hosted web application with React Native, Firebase, and Google Cloud, ensuring alignment between design vision and engineering capabilities.</p>
+            </>}
+          />
+        </section>
+        <section className='grey'>
+          <TextSection
+            title='OUR PRODUCT'
             text={
               <>
-                <p>Inspired by the journeys and passion of early-stage independent artists, I led end-to-end UX design, UX research, and full-stack engineering to build an app supporting the growth of emerging artists.</p>
-                <h3>Interlude: an application built from 0 to 1 for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and connect with who the artist is as a person.</h3>
+                <h3>Interlude: An application for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and connect with who the artist is as a person.</h3>
+                <a style={{color:'purple'}} target='_blank' href='https://interlude-5d3bf.web.app/'>
+                  Check out the application here.
+                </a>
               </>
             }
           />
@@ -59,7 +91,7 @@ function Interlude() {
             text={
               <>
                 <p>In the Fall of 2024, my peers and I at the UC Berkeley School of Information began our capstone projects. I sat down together with a group of my friends and thought:</p>
-                <h3 style={{fontStyle:'italic'}}>"How can we help early stage artists build an audience?"</h3>
+                <h3 style={{fontStyle:'italic', color:'purple'}}>"How can we help early stage artists build an audience?"</h3>
                 <p>At this point, we did not know what solution we wanted to create, just that we wanted to help new artists. We began research to get in the headspace of what challenges an artist faces when growing their audience and, on the flipside, what listeners want when discovering new music and connecting with the artists behind them.</p>
               </>
             }
@@ -68,7 +100,7 @@ function Interlude() {
             img={research}
           />
         </section>
-        <section className='grey'>
+        <section className='inverse-black'>
           <TextSection
             title={"WHAT WE FOUND"}
             text="Deepening our understanding of the landscape surrounding emerging artists, a couple of findings surprised us:"
@@ -96,14 +128,16 @@ function Interlude() {
               }
             ]}
           />
+        </section>
+        <section className='grey'>
           <TextSection
             title={"AND SO WE ASKED OURSELVES..."}
             text={
-              <>
+              <div style={{color:'purple'}}>
                 <h3>How might we allow artists and listeners to connect over who the artist is as a person?</h3>
                 <h3>How might we build an environment where smaller artists are supported by recommendation systems?</h3>
                 <h3>How might we use social media to create this community of discovery and connection?</h3>
-              </>
+              </div>
             }
           />
         </section>
@@ -162,20 +196,6 @@ function Interlude() {
             img={home_page}
           />
         </section>
-          {/* <ListSection
-            title={"Design Choices"}
-            list={[
-              {
-                text: "Bold displays inspired by news headlines and magazine articles to put them in the spotlight."
-              },
-              {
-                text: "Large photo features and gallery for a more intimate look."
-              },
-              {
-                text: "Featured posts to make a statement."
-              }
-            ]}
-          /> */}
         <section className='inverse-black'>
           <TextSection title={"CREATING AN INVERSE RECOMMENDATION SYSTEM"}/>
         </section>
@@ -191,13 +211,19 @@ function Interlude() {
         <section className='inverse-black'>
           <TextSection title={"BUILDING THE DARN THING: FULL-STACK ENGINEERING"}/>
         </section>
-        <section>
+        <section className='grey'>
           <TextSection
-            text={"This is where the fun begins...  Using React Native, Google Firebase, and Rest APIs, I built a working, live MVP for Interlude."}
+            text={<>
+              <p>This is where the fun begins...  Using React Native, Google Firebase, and Rest APIs, I built a working, live MVP for Interlude.</p>
+              <br></br>
+              <p>I began by diagramming the back-end system that will power Interlude, working closely with our engineering advisor to ideate, organize, and refine an system architecture that can be built with our time constraints.</p>
+            </>}
           />
-          <ImageSection
-            img={full_stack}
-          />
+        </section>
+        <ImageSection
+          img={full_stack}
+        />
+        <section className='grey'>
           <TextSection
             title={"Database Design"}
             text={"Using Firestore, I ideated and built a simple and scalable relational database architecture to accommodate for a variety of users, post types, music types, and other content categories, enabling quick storage and retrieval of content for artists and listeners."}
@@ -207,16 +233,19 @@ function Interlude() {
           />
           <TextSection
             title={"LINKING UP THE RECOMMENDATION SYSTEM"}
-            text={<>
-            <p>1. Connecting the onboarding process to build and store a vector representation of listener preferences.</p>
-            <p>2. Linking the music upload functionality to the feature extraction code, generating and storing a vector representation of individual songs.</p>
-            <p>3. Connecting the recommendation system to the backend, using the vector representations of songs and users to generate recommendations for each listener.</p>
-            </>}
+            text={<ol style={{display:'flex', flexDirection:'column', gap:'1rem'}}>
+              <li>Connecting the onboarding process to build and store a vector representation of listener preferences.</li>
+              <li>Linking the music upload functionality to the feature extraction code, generating and storing a vector representation of individual songs.</li>
+              <li>Connecting the recommendation system to the backend, using the vector representations of songs and users to generate recommendations for each listener.</li>
+            </ol>}
           />
           <ImageSection
             img={rec_engineering}
           />
         </section>
+        <ImageSection
+          img={MVP}  
+        />
         <section className='inverse-black'>
           <TextSection 
             title={"OUR FINDINGS AND THE FUTURE"}
