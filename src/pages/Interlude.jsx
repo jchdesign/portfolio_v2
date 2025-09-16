@@ -24,6 +24,7 @@ import rec_engineering from '../assets/Interlude/rec_engineering.png';
 import rec_system from '../assets/Interlude/rec_system.png';
 import testimonials from '../assets/Interlude/testimonials.png';
 import MVP from '../assets/Interlude/MVP.png';
+import DesignProcess from '../assets/Interlude/DesignProcess.png'
 import HyperLink from '../components/HyperLink';
 
 
@@ -64,22 +65,49 @@ function Interlude() {
             </>}
           />
         </section>
-        <section className='grey'>
+        <section className='inverse-black'>
           <TextSection
             title='OUR PRODUCT'
             text={
               <>
                 <h3>Interlude: An application for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and connect with who the artist is as a person.</h3>
-                <a style={{color:'purple'}} target='_blank' href='https://interlude-5d3bf.web.app/'>
+                <a style={{color:'#a94587ff', fontWeight: '800'}} target='_blank' href='https://interlude-5d3bf.web.app/'>
                   Check out the application here.
                 </a>
               </>
             }
           />
         </section>
-        <ImageSection
+        <section className='grey'>
+          <TextSection
+            title='Artist Profiles For the Person Behind the Artist'
+            text={"Creating a space where an artist can be empowered to showcase themselves and organize content about their craft."}
+          />
+          <ImageSection
+            img={artist_profiles}
+          />
+        </section>
+        <section>
+          <TextSection
+            title='Artist Music Pages to Speak Freely About Music'
+            text={"Organizing content about music in a page that serves as a source of truth from the artist, where an artist’s thoughts, process, stories, and exclusive content about a piece of music are contained and experienced."}
+          />
+          <ImageSection
+            img={music_page}
+          />
+        </section>
+        <section className='grey'>
+          <TextSection
+            title='Listener Home Page for Discovery and Connection'
+            text={<p>Allowing for discovery of new artists through an <strong>inverse recommendation system</strong>. Increasing visibility of artists through community interactions by displaying reposts, comments, and activity from the network that a listener follows. </p>}
+          />
+          <ImageSection
+            img={home_page}
+          />
+        </section>
+        {/* <ImageSection
           img={interlude_final}
-        />
+        /> */}
         <section className='inverse-black'>
           <TextSection
             title={"THE STORY OF INTERLUDE"}
@@ -164,38 +192,19 @@ function Interlude() {
           <TextSection
             title={"CREATING INTERLUDE"}
             text={<>
-              <p>I organized my understanding of artists from research and my own experience as an artist into <strong>creating the artist-facing experience.</strong></p>
+              <p>I led an iterative design pipeline to rapidly explore, create, and test our concepts for how Interlude should </p>
               <h3 style={{fontStyle:'italic'}}>My objective: Allow full creative and expressive freedom for artists, and create an app experience that empowers them to tell their stories.</h3>
             </>}
           />
         </section>
-        <section className='grey'>
+        <ImageSection
+          img={DesignProcess}
+        />
+        {/* <section className='inverse-black'>
           <TextSection
-            title='Artist Profiles For the Person Behind the Artist'
-            text={"Creating a space where an artist can be empowered to showcase themselves and organize content about their craft."}
+            title={"OUR CORE FEATURES"}
           />
-          <ImageSection
-            img={artist_profiles}
-          />
-        </section>
-        <section>
-          <TextSection
-            title='Artist Music Pages to Speak Freely About Music'
-            text={"Organizing content about music in a page that serves as a source of truth from the artist, where an artist’s thoughts, process, stories, and exclusive content about a piece of music are contained and experienced."}
-          />
-          <ImageSection
-            img={music_page}
-          />
-        </section>
-        <section className='grey'>
-          <TextSection
-            title='Listener Home Page for Discovery and Connection'
-            text={<p>Allowing for discovery of new artists through an <strong>inverse recommendation system</strong>. Increasing visibility of artists through community interactions by displaying reposts, comments, and activity from the network that a listener follows. </p>}
-          />
-          <ImageSection
-            img={home_page}
-          />
-        </section>
+        </section> */}
         <section className='inverse-black'>
           <TextSection title={"CREATING AN INVERSE RECOMMENDATION SYSTEM"}/>
         </section>
