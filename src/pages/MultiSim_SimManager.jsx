@@ -232,7 +232,7 @@ function MultiSim_SimManager() {
             text={
               <>
                 <h3>Incorporating feedback from the team, I polished my prototypes to deliver a high-fidelity final version of a unified workflow between Multiple Simulations and Simulation Manager, ready for handoff.</h3>
-                <h3><strong>The solution was well-received by all members of the team and staged for development in the next MATLAB release.</strong></h3>
+                <h3><strong>The solution was well-received by all members of the team and staged for development for a future MATLAB release.</strong></h3>
               </>
             }
           />

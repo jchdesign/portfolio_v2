@@ -10,7 +10,7 @@ function NavButton({time='', link='', text='', onMouseEnter, onMouseLeave}) {
         onMouseLeave={onMouseLeave}
       >
         <p className="body-small" style={{margin:"0", lineHeight:'1.3rem'}}>{time}</p>
-        <h3 className="h3" style={{margin:"0"}}>{text}</h3>
+        <h3 className="h3" style={{margin:"0", fontWeight:'400'}}>{text}</h3>
       </div>
     </Link>
   )

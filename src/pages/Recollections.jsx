@@ -11,7 +11,7 @@ function Recollections() {
     }, []);
 
     return (
-        <main class='music'>
+        <main className='music'>
             <div className='container'>
                 <CaseStudyGrid data={music_data[0]}/>
                 {music_data[0].releases.map(item => (

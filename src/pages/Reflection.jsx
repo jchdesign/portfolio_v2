@@ -24,7 +24,7 @@ function Reflection() {
   }, []);
   
   return (
-    <main class='research'>
+    <main className='research'>
       <div className='container'>
         <CaseStudyGrid data={research_data}/>
         <section className='inverse-black'>

@@ -17,8 +17,6 @@ import BrightSide from './pages/BrightSide';
 import Design from './pages/Design';
 import Film from './pages/Film'
 
-console.log('Reflection:', Reflection); // Add this
-
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);

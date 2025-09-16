@@ -12,7 +12,7 @@ function DirtyLaundry() {
     }, []);
     
     return (
-        <main class='film'>
+        <main className='film'>
             <div className='container'>
                 <CaseStudyGrid data={film_data[1]}/>
                 <VideoEmbed title={"SCENE 5: LOVE!"} source={"https://www.youtube.com/embed/Nx7_0bSo23s?start=76"} />

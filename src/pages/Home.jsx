@@ -1,11 +1,5 @@
-import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-
-import work_data from '../data/design_data';
-import film_data from '../data/film_data';
-import music_data from '../data/music_data';
-import about_data from '../data/about_data';
 
 import Header from '../components/Header';
 import NavButton from '../components/NavButton';
@@ -178,7 +172,7 @@ function Home() {
         <div className='container home'>
             <Header home={true}/>
             <div id='home-grid'>
-                <h2>JEFFCHANG.MP3</h2>
+                <h2 style={{fontWeight:'400'}}>JEFFCHANG.MP3</h2>
                 <div ref={containerRef}
                     style={{
                         display: 'flex',

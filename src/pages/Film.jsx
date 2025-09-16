@@ -4,7 +4,7 @@ import Directory from '../components/Directory';
 
 function Film() {
   return (
-    <main class='film'>
+    <main className='film'>
         <Directory 
             heading={'FILM SCORING AND SOUND DESIGN'} 
             description={"Writing waveform worlds."}

@@ -10,7 +10,7 @@ function About({data}) {
   }, []);
 
   return (
-    <main class='about'>
+    <main className='about'>
       <div className='container'>
         <Header/>
         <section>

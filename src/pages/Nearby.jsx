@@ -17,7 +17,7 @@ import ProfileChanges from '../assets/Nearby/ProfileChanges.png';
 import Combined from '../assets/Nearby/Combined.png';
 import Nearby_3_4 from '../assets/Nearby/Nearby_3_4.png';
 import Exploration from '../assets/Nearby/Exploration.png';
-import Footer from '../components/Footer';
+import NearbyIssues from '../assets/Nearby/Nearby_Issues.png';
 
 function Nearby() {
   useEffect(() => {
@@ -42,28 +42,34 @@ function Nearby() {
         </section>
         <section>
           <ImageTextSection 
-            orientation='img-text'
+            orientation='text-img'
             img={FlowBefore} 
-            title='Background' 
+            title='Introducing Nearby' 
             text={"Nearby, a page showing active users within a user's quarter mile radius, is Kardder's holy grail feature.\n\nHow can we better present Nearby as Kardder's most important, stand-out feature?"}
           />
-          <ListSection
-            title="Where is Nearby Falling Short?"
-            subtitle="Conducting a product teardown of Nearby, we uncovered several problems with Nearby that hinders its presentation as Kardder's centerpiece:"
-            list={[
-              {
-                title: 'Redundancies',
-                text: 'Nearby is currently very similar to Browse - a page that shows all the users on the app. Users are often confused about the difference between the two.'
-              },
-              {
-                title: 'Indicating Functionality',
-                text: 'Nearby in its current state does not indicate its close-proximity functionality. In the current state, profiles on nearby do not signify they are displaying active users within the 0.25 mile radius.'
-              },
-              {
-                title: 'Lack of Prominence',
-                text: "Positioned as the second feature in the navigation bar and sharing visual similarity with Browse, Nearby does not stand out as the primary, distinguishing feature of Kardder."
-              }
-            ]}
+          <ImageTextSection
+            orientation='img-text'
+            img={NearbyIssues}
+            content={
+              <ListSection
+                title="Where is Nearby Falling Short?"
+                subtitle="Conducting a product teardown of Nearby, we uncovered several problems with Nearby that hinders its presentation as Kardder's centerpiece:"
+                list={[
+                  {
+                    title: 'Redundancies',
+                    text: 'Nearby is currently very similar to Browse - a page that shows all the users on the app. Users are often confused about the difference between the two.'
+                  },
+                  {
+                    title: 'Indicating Functionality',
+                    text: 'Nearby in its current state does not indicate its close-proximity functionality. In the current state, profiles on Nearby do not signify they are displaying active users within the 0.25 mile radius.'
+                  },
+                  {
+                    title: 'Lack of Prominence',
+                    text: "Positioned as the second feature in the navigation bar and sharing visual similarity with Browse, Nearby does not stand out as the primary, distinguishing feature of Kardder."
+                  }
+                ]}
+              />
+            }
           />
         </section>
         <section className='inverse-black'>

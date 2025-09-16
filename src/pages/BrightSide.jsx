@@ -12,7 +12,7 @@ function BrightSide() {
     }, []);
     
     return (
-        <main class='film'>
+        <main className='film'>
             <div className='container'>
                 <CaseStudyGrid data={film_data[0]}/>
                 <VideoEmbed title={"SCENE 12: BREAKING DOWN"} source={"https://www.youtube.com/embed/RYHmb0j1fF8?si=saD0sWkcRY_hNwwW"} />

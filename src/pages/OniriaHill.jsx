@@ -12,7 +12,7 @@ function OniriaHill() {
     }, []);
 
   return (
-    <main class='film'>
+    <main className='film'>
       <div className='container'>
         <CaseStudyGrid data={film_data[2]}/>
         <VideoEmbed title='DEMO' source='https://www.youtube.com/embed/_UmZrf7b6cE?si=K6-fy8raFXVh6vPK'/>

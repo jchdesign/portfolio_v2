@@ -34,7 +34,7 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -810,7 +810,7 @@ p {
   }
 
   .img-text-container > .text {
-    padding: 20px;
+    padding: 0px;
   }
 }
 
@@ -1024,17 +1024,17 @@ p {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2.25rem;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.688rem;
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.312rem;
 }
 
